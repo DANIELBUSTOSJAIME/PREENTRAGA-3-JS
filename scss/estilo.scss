@@ -1,0 +1,291 @@
+
+$color-letra-h1: rgb(238, 235, 41);;
+$color-letra-h2: red;
+
+$color-fondo-footer: rgba(0, 0, 0, 0.911);
+
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image:url(../img/footer.jpeg);
+    background-position: center;
+    background-size: auto;
+    background-repeat:repeat;
+}
+h1{
+    color: $color-letra-h1;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Arimo', sans-serif;
+}
+h2{
+    color: $color-letra-h2;
+    color: red;
+    text-align: center;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+p{
+    font-family: 'Arimo', sans-serif;
+    color: $color-letra-h2;
+}
+.favicon{
+width: 40;
+}
+
+
+
+
+main{
+    h3{
+        font-size: 2rem;
+        font-family: 'Lobster', cursive;
+        width: 40%;
+        color: $color-letra-h1;
+        text-decoration: none;
+        background-color: $color-fondo-footer
+    }
+
+
+    #titulo1{
+        width: fit-content;
+        margin: 10 auto;
+        text-align: center;
+        font-family: 'Sedgwick Ave Display', cursive
+    }
+    .serv{
+        background-color: $color-fondo-footer;
+        margin: 10 auto;
+        border: solid black 2px;
+        text-align: center;
+        align-content: center;
+    }
+    h4{
+        font-size: 1.5rem;
+        font-weight: bold;
+        font-family: 'Arimo', sans-serif;
+        padding: 1rem;
+    }
+    .titulos{
+        margin: 1rem;
+        background-color: $color-letra-h1;
+        text-align: center;
+    }
+    .imagenchica{
+        width: 250px;
+        height: 250px;
+        padding: 3rem;
+        align-items: center;
+        &:hover{
+            transform: scale(1.5,1.5);
+            transition: all 2s;
+        }
+    }
+    
+    
+    
+    background-color: black;
+    
+    
+    
+    #contactanos{
+        width: fit-content;
+        margin: 10 auto;
+        text-align: center;
+        font-family: 'Sedgwick Ave Display', cursive;
+    }
+
+}
+
+
+footer{
+    background-color: $color-fondo-footer;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    flex-direction: row; 
+    text-align: center;
+}
+.foot{
+    display: inline-block;
+    font-family: 'Arimo', sans-serif;    
+}
+
+.direcciontelefono{
+    display: inline;
+    margin: 10mp;
+    color: $color-letra-h1;
+    .wsp{
+        width: 30;
+        justify-content: center;
+    }
+        p{
+            font-family: 'Arimo', sans-serif;
+            color: $color-letra-h2;
+        }
+}
+.redessociales{  
+    width: 30;
+    display:inline;
+    text-align: center;
+    color: $color-letra-h1;
+}
+
+#copy{
+    text-align: center;
+    size: 10px; 
+    p{
+        font-family: 'Arimo', sans-serif;
+        color: $color-letra-h1;
+    }
+}
+
+.botton{
+    text-decoration: none;
+    color: white;
+}
+
+form#contacta{
+    width: 100%;
+}
+    #formulario{
+    align-items: center;
+    width: 95%;
+    height: 47rem;
+    background-color: $color-letra-h2; 
+    padding: 0.8rem;
+    font-family: 'Arimo', sans-serif;    
+    margin: 0.5cm;
+    .lineas{
+        display: block;
+        padding: 5px;
+        width: 100% ;
+        text-align: justify;
+    }
+}
+.mapa{
+    width: 95%;
+    height: 47rem;
+    margin: 0.5cm;
+}
+
+section.login{
+    h2{
+        font-family: 'Sedgwick Ave Display', cursive;
+    }
+    font-size: 1.5rem;
+    
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0.5rem;
+    }
+    form{
+        font-size: 1rem;
+        font-family: 'Arimo', sans-serif;
+        text-align: center;
+        width: 50%;
+        color: $color-fondo-footer;
+        text-decoration: none;
+        padding: 0.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 500px;
+        border-radius: 20px;
+        border: 2px solid black;
+        background-color: yellow;
+        
+        label{
+            width: 100%;
+            padding: 0.2rem;
+            margin-bottom: 0.5rem;
+        }
+        input{
+            width: 100%;
+            margin-bottom: 0.5rem;
+            padding: 0.8rem;
+            border-radius: 9px;
+            border: none;
+            outline-color: black;
+            background-color: red;
+        }
+        input [type="submit"]{
+            margin-top: 1.5rem;
+
+        }
+        p{
+            margin-top: 1rem;
+            text-align: justify;
+            color: black;
+            a{
+                text-decoration: none;
+                color: red;
+            }
+        }
+    }    
+
+    section.signup{
+        h2{
+            font-family: 'Sedgwick Ave Display', cursive;
+        }
+        font-size: 1.5rem;
+        
+        display: flex;
+        flex-wrap: wrap;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0.5rem;
+        }
+        form{
+            font-size: 1rem;
+            font-family: 'Arimo', sans-serif;
+            text-align: center;
+            width: 100%;
+            color: $color-fondo-footer;
+            text-decoration: none;
+            padding: 0.5rem;
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 500px;
+            border-radius: 20px;
+            border: 2px solid black;
+            background-color: yellow;
+            
+            label{
+                width: 100%;
+                padding: 0.2rem;
+                margin-bottom: 0.5rem;
+            }
+            input{
+                width: 100%;
+                margin-bottom: 0.5rem;
+                padding: 0.8rem;
+                border-radius: 9px;
+                border: none;
+                outline-color: black;
+                background-color: red;
+            }
+            input [type="submit"]{
+                margin-top: 1.5rem;
+    
+            }
+            p{
+                margin-top: 1rem;
+                text-align: justify;
+                color: black;
+                a{
+                    text-decoration: none;
+                    color: red;
+                }
+            }
+        }

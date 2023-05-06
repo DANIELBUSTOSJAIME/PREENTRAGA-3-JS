@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  background-image: url(../img/footer.jpeg);
+  background-position: center;
+  background-size: auto;
+  background-repeat: repeat; }
+
+h1 {
+  color: #eeeb29;
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Arimo', sans-serif; }
+
+h2 {
+  color: red;
+  color: red;
+  text-align: center;
+  font-family: 'Sedgwick Ave Display', cursive; }
+
+p {
+  font-family: 'Arimo', sans-serif;
+  color: red; }
+
+.favicon {
+  width: 40; }
+
+main {
+  background-color: black; }
+  main h3 {
+    font-size: 2rem;
+    font-family: 'Lobster', cursive;
+    width: 40%;
+    color: #eeeb29;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.911); }
+  main #titulo1 {
+    width: fit-content;
+    margin: 10 auto;
+    text-align: center;
+    font-family: 'Sedgwick Ave Display', cursive; }
+  main .serv {
+    background-color: rgba(0, 0, 0, 0.911);
+    margin: 10 auto;
+    border: solid black 2px;
+    text-align: center;
+    align-content: center; }
+  main h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Arimo', sans-serif;
+    padding: 1rem; }
+  main .titulos {
+    margin: 1rem;
+    background-color: #eeeb29;
+    text-align: center; }
+  main .imagenchica {
+    width: 250px;
+    height: 250px;
+    padding: 3rem;
+    align-items: center; }
+    main .imagenchica:hover {
+      transform: scale(1.5, 1.5);
+      transition: all 2s; }
+  main #contactanos {
+    width: fit-content;
+    margin: 10 auto;
+    text-align: center;
+    font-family: 'Sedgwick Ave Display', cursive; }
+
+footer {
+  background-color: rgba(0, 0, 0, 0.911);
+  font-size: 20px;
+  font-family: 'Lobster', cursive;
+  flex-direction: row;
+  text-align: center; }
+
+.foot {
+  display: inline-block;
+  font-family: 'Arimo', sans-serif; }
+
+.direcciontelefono {
+  display: inline;
+  margin: 10mp;
+  color: #eeeb29; }
+  .direcciontelefono .wsp {
+    width: 30;
+    justify-content: center; }
+  .direcciontelefono p {
+    font-family: 'Arimo', sans-serif;
+    color: red; }
+
+.redessociales {
+  width: 30;
+  display: inline;
+  text-align: center;
+  color: #eeeb29; }
+
+#copy {
+  text-align: center;
+  size: 10px; }
+  #copy p {
+    font-family: 'Arimo', sans-serif;
+    color: #eeeb29; }
+
+.botton {
+  text-decoration: none;
+  color: white; }
+
+form#contacta {
+  width: 100%; }
+
+#formulario {
+  align-items: center;
+  width: 95%;
+  height: 47rem;
+  background-color: red;
+  padding: 0.8rem;
+  font-family: 'Arimo', sans-serif;
+  margin: 0.5cm; }
+  #formulario .lineas {
+    display: block;
+    padding: 5px;
+    width: 100%;
+    text-align: justify; }
+
+.mapa {
+  width: 95%;
+  height: 47rem;
+  margin: 0.5cm; }
+
+section.login {
+  font-size: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0.5rem; }
+  section.login h2 {
+    font-family: 'Sedgwick Ave Display', cursive; }
+
+form {
+  font-size: 1rem;
+  font-family: 'Arimo', sans-serif;
+  text-align: center;
+  width: 50%;
+  color: rgba(0, 0, 0, 0.911);
+  text-decoration: none;
+  padding: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 500px;
+  border-radius: 20px;
+  border: 2px solid black;
+  background-color: yellow; }
+  form label {
+    width: 100%;
+    padding: 0.2rem;
+    margin-bottom: 0.5rem; }
+  form input {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    padding: 0.8rem;
+    border-radius: 9px;
+    border: none;
+    outline-color: black;
+    background-color: red; }
+  form input [type="submit"] {
+    margin-top: 1.5rem; }
+  form p {
+    margin-top: 1rem;
+    text-align: justify;
+    color: black; }
+    form p a {
+      text-decoration: none;
+      color: red; }
+
+section.signup {
+  font-size: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0.5rem; }
+  section.signup h2 {
+    font-family: 'Sedgwick Ave Display', cursive; }
+
+form {
+  font-size: 1rem;
+  font-family: 'Arimo', sans-serif;
+  text-align: center;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.911);
+  text-decoration: none;
+  padding: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 500px;
+  border-radius: 20px;
+  border: 2px solid black;
+  background-color: yellow; }
+  form label {
+    width: 100%;
+    padding: 0.2rem;
+    margin-bottom: 0.5rem; }
+  form input {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    padding: 0.8rem;
+    border-radius: 9px;
+    border: none;
+    outline-color: black;
+    background-color: red; }
+  form input [type="submit"] {
+    margin-top: 1.5rem; }
+  form p {
+    margin-top: 1rem;
+    text-align: justify;
+    color: black; }
+    form p a {
+      text-decoration: none;
+      color: red; }
