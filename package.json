@@ -198,5 +198,13 @@
     "yargs-parser": "^20.2.9",
     "yargs": "^17.7.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DANIELBUSTOSJAIME/PREENTRAGA-3-JS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DANIELBUSTOSJAIME/PREENTRAGA-3-JS/issues"
+  },
+  "homepage": "https://github.com/DANIELBUSTOSJAIME/PREENTRAGA-3-JS#readme",
   "description": ""
 }

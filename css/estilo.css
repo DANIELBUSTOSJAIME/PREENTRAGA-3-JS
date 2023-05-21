@@ -66,8 +66,8 @@ main {
       transform: scale(1.5, 1.5);
       transition: all 2s; }
   main #contactanos {
-    width: fit-content;
-    margin: 10 auto;
+    width: 100vh;
+    margin: auto;
     text-align: center;
     font-family: 'Sedgwick Ave Display', cursive; }
 
