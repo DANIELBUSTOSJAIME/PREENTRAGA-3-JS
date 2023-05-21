@@ -16,7 +16,7 @@ loginForm.addEventListener("submit", (e)=>{
     }
     localStorage.setItem("login_correcto", JSON.stringify(validacionatleta))
 
-    window.location.href = "../pages/turnero.html"
+    window.location.href = "turnero.html"
    
 })
 

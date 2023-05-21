@@ -2,15 +2,41 @@ const registroAtletas = JSON.parse(localStorage.getItem("login_correcto")) || fa
 if(!registroAtletas){
     window.location.href = "login.html"
 }
-    
-    let vencimientocreditos = "2023-05-22";
+
+
+//              FUNCION DE LOG OUT FORZADO POR EL PASO DEL TIEMPO CON SET
+function mensajeLogOut(){
+    Swal.fire({
+        title: "Log Out forzado",
+        text: "Han transcurrido 10 minutos desde el inicio de su sesión, serás redirigido para Iniciar Sesión nuevamente",
+        icon: 'info',    
+    })  
+}
+function redireccion(){
+    window.location.href = "login.html"
+}
+
+function cancelarLogOut(){
+    Swal.fire({
+        title: "Estas ahi?",
+        text: "Han transcurrido 9 minutos desde su el inicio de su sesión, en un minuto seras redirigido a Iniciar Sesión nuevamente",
+        icon: 'info',
+    })  
+}
+
+setInterval(cancelarLogOut, 540000)
+setInterval (mensajeLogOut, 600000);
+setTimeout(redireccion, 605000)
+
+
+//                  VARIABLES DEL TURNERO
+    let vencimientocreditos = "2023-06-22";
     const fechaVencimiento = new Date (vencimientocreditos);
     fechaVencimiento.setHours(23,59, 59, 59);
     let totalcreditos = 0;
     let creditosdisponibles = 0;
     let diareserva;
     let cancelareserva;
-    
     const fechaCancelacion = new Date(cancelareserva);
 
 //      OPCION 1 - RESERVA DE TURNOS SOLO CON CREDITOS DISPONIBLES

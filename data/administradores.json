@@ -1,0 +1,26 @@
+[   
+    {
+        "nombre":"Pedro", 
+        "apellido":"Perez", 
+        "dni":"35095329",
+        "contrasena":"12345"
+    },
+    {
+        "nombre":"Pablo", 
+        "apellido":"Pedraza", 
+        "dni":"45005333",
+        "contrasena":"123456"
+    },
+    {
+        "nombre":"Carolina", 
+        "apellido":"Bulacios", 
+        "dni":"40637322",
+        "contrasena":"1234567"
+    },
+    {
+        "nombre":"Paula", 
+        "apellido":"Yance", 
+        "dni":"34783169",
+        "contrasena":"1234"
+    }
+]
